@@ -1,6 +1,7 @@
 import React from 'react'
 import profile from '../assets/profile.JPG'
 import { MdOutlineMenu,MdOutlineLightbulb } from "react-icons/md";
+import { NavLink, Outlet } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='p-4 w-full'>
@@ -25,7 +26,9 @@ src={profile}
                 </ul>
             </div>
         </div>
-
+<main>
+        <Outlet/>
+    </main>
     </div>
   )
 }
