@@ -3,6 +3,7 @@ import profile from '../assets/profile.JPG'
 import { MdOutlineMenu,MdOutlineLightbulb, MdClose  } from "react-icons/md";
 import { NavLink, Outlet } from 'react-router-dom'
 const Navbar = () => {
+  const [lightmode, setLightmode]=useState(false)
   const [menu, setMenu]=useState(false)
     const handleMenu=()=>{
       setMenu(!menu)
@@ -13,10 +14,14 @@ const Navbar = () => {
     const handleClick=()=>{
       handleClose()
     }
+    
+    const switchLight=()=>{
+      setLightmode(!lightmode)
+    }
   
   return (
-    <div className='p-4 w-full bg-teal-950 h-screen text-white'>
-        <div className='flex justify-between  items-center'>
+    <div className={` w-full h-full ${lightmode? 'bg-white text-black': 'bg-teal-950 text-white'}`}>
+        <div className='flex justify-between items-center p-4'>
             {/**profile icon */}
             <div className='w-[40px] h-[40px] rounded-full'>
 <img className='w-full h-full object-cover rounded-full'
@@ -33,7 +38,7 @@ src={profile}
                   <NavLink>Skills</NavLink>
                   <NavLink>Projects</NavLink>
                   <NavLink>Contact</NavLink>
-                    <MdOutlineLightbulb size={25}   />
+                    <MdOutlineLightbulb onClick={switchLight} className={`cursor-pointer ${lightmode ? 'text-yellow-400': ''}`} size={30}   />
                 </ul>
                <div className='flex gap-4 items-center'>
                 <MdOutlineLightbulb size={30} className='md:hidden'  />
