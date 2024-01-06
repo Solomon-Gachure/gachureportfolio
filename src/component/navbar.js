@@ -20,7 +20,7 @@ const Navbar = () => {
     }
   
   return (
-    <div className={` w-full h-full ${lightmode? 'bg-white text-black': 'bg-teal-950 text-white'}`}>
+    <div className={` w-full h-screen ${lightmode? 'bg-white text-black': 'bg-teal-950 text-white'}`}>
         <div className='flex justify-between items-center p-4'>
             {/**profile icon */}
             <div className='w-[40px] h-[40px] rounded-full'>
@@ -41,7 +41,7 @@ src={profile}
                     <MdOutlineLightbulb onClick={switchLight} className={`cursor-pointer ${lightmode ? 'text-yellow-400': ''}`} size={30}   />
                 </ul>
                <div className='flex gap-4 items-center'>
-                <MdOutlineLightbulb size={30} className='md:hidden'  />
+                <MdOutlineLightbulb size={30} onClick={switchLight} className={`cursor-pointer md:hidden ${lightmode ? 'text-yellow-400': ''}`}  />
                 <MdOutlineMenu onClick={handleMenu} className='cursor-pointer flex md:hidden' size={30} />
                </div>
             </div>
