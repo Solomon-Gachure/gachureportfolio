@@ -20,7 +20,7 @@ const Navbar = () => {
     }
   
   return (
-    <div className={` w-full h-screen ${lightmode? 'bg-white text-black': 'bg-teal-950 text-white'}`}>
+    <div className={` w-full h-full ${lightmode? 'bg-white text-black': 'bg-teal-950 text-white'}`}>
         <div className='flex justify-between items-center p-4'>
             {/**profile icon */}
             <div className='w-[40px] h-[40px] rounded-full'>
