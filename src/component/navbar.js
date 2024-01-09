@@ -33,7 +33,7 @@ src={profile}
                 
                   <ul className='hidden md:flex items-center gap-4 md:text-lg'>
                     
-                  <NavLink>Home</NavLink>
+                  <NavLink to="/home">Home</NavLink>
                   <NavLink to="/about" >About</NavLink>
                   <NavLink>Skills</NavLink>
                   <NavLink>Projects</NavLink>
@@ -55,7 +55,7 @@ src={profile}
                   <div className=' ml-auto'>
                     <MdClose onClick={handleClose} className='cursor-pointer z-50 font-bold animate-bounce' size={35}/>
                   </div>
-                  <NavLink>Home</NavLink>
+                  <NavLink to="/home" onClick={handleClick}>Home</NavLink>
                   <NavLink to="/about" onClick={handleClick} >About</NavLink>
                   <NavLink onClick={handleClick}>Skills</NavLink>
                   <NavLink onClick={handleClick}>Projects</NavLink>
