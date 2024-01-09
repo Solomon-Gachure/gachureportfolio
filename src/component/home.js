@@ -11,7 +11,7 @@ const Home = () => {
   ];
   return (
     <div className='h-screen'>
-        <div className='flex justify-center items-center p-4   '>
+        <div className='flex justify-center items-center md:p-4 pt-20   '>
             <div className='border-b  '>
                 <div className='md:w-[350px] md:h-[200px]  w-[200px] h-[100px] rounded-t-full  '>
             <img className='w-full h-full object-cover rounded-t-full' src={profile} alt="profile" />
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
             </div>
         </div>
-        <div className='flex justify-center items-center gap-8 p-8'>
+        <div className='flex justify-center items-center gap-8 md:p-8 pt-20'>
             <div className='border p-4 pt-8 md:pt-20 w-[100px] md:w-[200px]'>
                 <h1 className='text-2xl md:text-6xl text-right '>Hello</h1>
                 <h1 className='text-4xl font-bold'>World!</h1>

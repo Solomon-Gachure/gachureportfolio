@@ -24,9 +24,10 @@ const Navbar = () => {
         <div className='flex justify-between items-center p-4'>
             {/**profile icon */}
             <div className='w-[40px] h-[40px] rounded-full'>
-<img className='w-full h-full object-cover rounded-full'
+              <NavLink to="/home"><img className='w-full h-full object-cover rounded-full'
 src={profile}
- alt="profile" />
+ alt="profile" /></NavLink>
+
             </div>
             {/**links to the pages */}
             <div className=' bg-opacity-60 backdrop-blur-lg backdrop-filter:blur(8px) bg-clip-padding'>
@@ -35,7 +36,7 @@ src={profile}
                     
                   <NavLink to="/home">Home</NavLink>
                   <NavLink to="/about" >About</NavLink>
-                  <NavLink>Skills</NavLink>
+                  <NavLink to="/skills">Skills</NavLink>
                   <NavLink>Projects</NavLink>
                   <NavLink>Contact</NavLink>
                     <MdOutlineLightbulb onClick={switchLight} className={`cursor-pointer ${lightmode ? 'text-yellow-400': ''}`} size={30}   />
