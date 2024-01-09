@@ -18,7 +18,7 @@ const About = () => {
 </div>
 <div>
   <p className='text-lg'>Salut!👋🏾 <b>Solomon Gachure</b> here, however you can call me Solomon!<br/>
-  As a seasoned software engineer specializing in the frontend domain, I bring a wealth of knowledge and experience to the table. Armed with a comprehensive foundation in HTML, CSS, and JavaScript, I have honed my skills in crafting seamless and visually appealing user interfaces. My proficiency extends to cutting-edge technologies like <b>React, Next.js, and Tailwind CSS</b>, allowing me to create dynamic and responsive web applications.
+  As a software engineer specializing in the frontend domain, I bring a wealth of knowledge and experience to the table. Armed with a comprehensive foundation in HTML, CSS, and JavaScript, I have honed my skills in crafting seamless and visually appealing user interfaces. My proficiency extends to cutting-edge technologies like <b>React, Next.js, and Tailwind CSS</b>, allowing me to create dynamic and responsive web applications.
 
 What sets me apart is not only my technical acumen but also my commitment to collaboration and effective communication.<br/>
 <br/>
