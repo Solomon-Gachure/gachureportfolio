@@ -5,7 +5,7 @@ import About from "./pages/about";
 import Home from "./component/home";
 import Skills from "./component/skills";
 import Projects from "./component/projects";
-import Contacts from "./component/contacts";
+
 
 function App() {
   const router = createBrowserRouter(
@@ -15,7 +15,7 @@ function App() {
         <Route path="/home" element={<Home/>} />
         <Route path="/skills" element={<Skills/>} />
         <Route path="/projects" element={<Projects/>} />
-        <Route path="/contacts" element={<Contacts/>} />
+        
 
       </Route>
     )

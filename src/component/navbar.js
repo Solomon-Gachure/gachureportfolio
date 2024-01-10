@@ -38,7 +38,7 @@ src={profile}
                   <NavLink to="/about" >About</NavLink>
                   <NavLink to="/skills">Skills</NavLink>
                   <NavLink to="/projects">Projects</NavLink>
-                  <NavLink to="/contacts">Contact</NavLink>
+                 
                     <MdOutlineLightbulb onClick={switchLight} className={`cursor-pointer ${lightmode ? 'text-yellow-400': ''}`} size={30}   />
                 </ul>
                <div className='flex gap-4 items-center'>
@@ -58,13 +58,9 @@ src={profile}
                   </div>
                   <NavLink to="/home" onClick={handleClick}>Home</NavLink>
                   <NavLink to="/about" onClick={handleClick} >About</NavLink>
-                  <NavLink onClick={handleClick}>Skills</NavLink>
-                  <NavLink onClick={handleClick}>Projects</NavLink>
-                  <NavLink onClick={handleClick}>Contact</NavLink>
-                   
-
+                  <NavLink to="/skills" onClick={handleClick}>Skills</NavLink>
+                  <NavLink to="/projects" onClick={handleClick}>Projects</NavLink>
                 </ul>
-                
             </div>
       </div>
     }
