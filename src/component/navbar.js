@@ -37,7 +37,7 @@ src={profile}
                   <NavLink to="/home">Home</NavLink>
                   <NavLink to="/about" >About</NavLink>
                   <NavLink to="/skills">Skills</NavLink>
-                  <NavLink>Projects</NavLink>
+                  <NavLink to="/projects">Projects</NavLink>
                   <NavLink>Contact</NavLink>
                     <MdOutlineLightbulb onClick={switchLight} className={`cursor-pointer ${lightmode ? 'text-yellow-400': ''}`} size={30}   />
                 </ul>

@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } 
 import About from "./pages/about";
 import Home from "./component/home";
 import Skills from "./component/skills";
+import Projects from "./component/projects";
 
 function App() {
   const router = createBrowserRouter(
@@ -12,6 +13,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/skills" element={<Skills/>} />
+        <Route path="/projects" element={<Projects/>} />
 
 
       </Route>
