@@ -38,7 +38,7 @@ src={profile}
                   <NavLink to="/about" >About</NavLink>
                   <NavLink to="/skills">Skills</NavLink>
                   <NavLink to="/projects">Projects</NavLink>
-                  <NavLink>Contact</NavLink>
+                  <NavLink to="/contacts">Contact</NavLink>
                     <MdOutlineLightbulb onClick={switchLight} className={`cursor-pointer ${lightmode ? 'text-yellow-400': ''}`} size={30}   />
                 </ul>
                <div className='flex gap-4 items-center'>
