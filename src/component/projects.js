@@ -15,8 +15,8 @@ const Projects = () => {
      alt="" />
     </a>
 <div className='p-4'>
-    <a href="https://dee-smoky.vercel.app/"><h1 className='text-2xl font-bold'>Dees Makeup Studio</h1></a>
-    <p className='text-xl text-stone-300'>A simple website for Dee makeup studios showcasing their services portfolio, also customers can book for the services.</p>
+    <a href="https://dee-smoky.vercel.app/" target='blank'><h1 className='text-2xl font-bold'>Dees Makeup Studio</h1></a>
+    <p className='text-xl text-stone-500'>A simple website for Dee makeup studios showcasing their services portfolio, also customers can book for the services.</p>
 </div>
 </div>
 <div className='border md:h-[400px] md:max-w-[350px] h-[200px]'>

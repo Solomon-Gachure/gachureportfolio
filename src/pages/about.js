@@ -18,15 +18,12 @@ const About = () => {
 </div>
 <div>
   <p className='text-lg text-center'>Salut!👋🏾 <b>Solomon Gachure</b> here, however you can call me Solomon!<br/>
-  As a software engineer specializing in the frontend domain, I bring a wealth of knowledge and experience to the table. Armed with a comprehensive foundation in HTML, CSS, and JavaScript, I have honed my skills in crafting seamless and visually appealing user interfaces. My proficiency extends to cutting-edge technologies like <b>React, Next.js, and Tailwind CSS</b>, allowing me to create dynamic and responsive web applications.
+  As a software engineer specializing in the frontend domain, I bring a wealth of knowledge and experience to the table. My proficiency extends to cutting-edge technologies like <b>React, Next.js, and Tailwind CSS</b>, allowing me to create dynamic and responsive web applications.
 
-What sets me apart is not only my technical acumen but also my commitment to collaboration and effective communication.<br/>
+What sets me apart is not only my technical acumen but also my commitment to collaboration,teamwork and effective communication.<br/>
 <br/>
- Valuing teamwork as a core principle, I thrive in collaborative environments, leveraging collective expertise to deliver exceptional results.<br/>
-  My dedication to fostering a positive team dynamic ensures that I contribute not just as an individual but as a cohesive part of a greater whole.
-  <br/>
 
-As a frontend professional, I am driven by a passion for user-centric design, striving to create interfaces that not only meet but exceed user expectations, delivering superb user experiences. Whether in the fast-paced world of deadlines or the ever-evolving tech landscape, I approach challenges with professionalism, a strong work ethic, and an unwavering commitment to excellence. Adaptable to any work environment, I am ready to contribute my skills and expertise to drive innovation and success in the realm of frontend development.
+As a frontend professional, I am driven by a passion for user-centric design, striving to create interfaces that not only meet but exceed user expectations, delivering superb user experiences. Whether in the fast-paced world of deadlines or the ever-evolving tech landscape, I approach challenges with professionalism, a strong work ethic, and an unwavering commitment to excellence.
   
   </p>
 </div>
