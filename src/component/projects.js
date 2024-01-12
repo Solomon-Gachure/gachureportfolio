@@ -1,5 +1,6 @@
 import React from 'react'
 import dee from '../assets/dee.png'
+import matatu from '../assets/matatu.png'
 const Projects = () => {
   return (
     <div className='h-full'>
@@ -21,9 +22,10 @@ const Projects = () => {
 </div>
 <div className='border md:h-[400px] md:max-w-[350px] h-[200px]'>
     <img className='w-full'
-    src={dee}
+    src={matatu}
      alt="" />
-<p></p>
+<a href="https://shato-mat.vercel.app/" target='blank'><h1 className='text-2xl font-bold'>Dees Makeup Studio</h1></a>
+    <p className='text-xl text-stone-500'>A simple website for Dee makeup studios showcasing their services portfolio, also customers can book for the services.</p>
 </div>
 <div className='border md:h-[400px] md:max-w-[350px] h-[200px]'>
     <img className='w-full'
