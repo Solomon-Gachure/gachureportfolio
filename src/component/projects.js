@@ -39,7 +39,12 @@ const Projects = () => {
      alt="" />
 <p></p>
 </div>
-
+<div className='border md:h-[400px] md:max-w-[350px] h-[200px]'>
+    <img className='w-full'
+    src={dee}
+     alt="" />
+<p></p>
+</div>
 
     </div>
 </div>
