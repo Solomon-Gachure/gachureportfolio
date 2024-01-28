@@ -3,7 +3,7 @@ import dee from '../assets/dee.png'
 import matatu from '../assets/matatu.png'
 const Projects = () => {
   return (
-    <div className='h-full'>
+    <div className='h-full font-mono'>
         <div className='flex justify-center items-center p-2'>
   <h1 className='text-4xl md:text-6xl font-bold border-b w-[600px] pb-4 '>Projects</h1>
 </div>

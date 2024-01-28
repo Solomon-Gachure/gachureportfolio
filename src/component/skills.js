@@ -2,14 +2,14 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='h-full w-full'>
+    <div className='h-full w-full font-mono'>
       <div>
         <div className='flex justify-center items-center p-2'>
   <h1 className='text-4xl md:text-6xl font-bold border-b w-[600px] pb-4 '>Skills</h1>
 </div>
 
-<div className='flex flex-col items-center p-2 text-lg'>
-  <p className='text-lg'>Over the years in software development, I have garnered foundational skills and knowledge in technical and also non technical skills as below: </p>
+<div className='flex flex-col items-center p-2 text-lg '>
+  <p className='text-lg max-w-4xl'>Over the years in software development, I have garnered foundational skills and knowledge in technical and also non technical skills as below: </p>
     <div className='p-2 grid grid-cols-2 md:grid-cols-4 gap-4  '>
       <div >
         <div className='border border-gray-400 p-2 rounded-lg' >

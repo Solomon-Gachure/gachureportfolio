@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Typewriter from 'typewriter-effect';
 import profile from '../assets/newprofile.png'
 import {FaGithub, FaLinkedin, FaWhatsapp} from 'react-icons/fa6'
 import { HiOutlineMail } from "react-icons/hi";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 const Home = () => {
+    useEffect(() => {
+    AOS.init({
+        duration: 1000,
+    });
+  }, []);
   const WhatsAppLink = ()=>{
     const number='+254798605270'
     const message="welcome to dee makeup services!"
@@ -18,7 +25,7 @@ const Home = () => {
     "Tec Savvy",
   ];
   return (
-    <div className='h-screen'>
+    <div className='h-screen font-mono'>
         <div className='flex justify-center items-center md:p-4 pt-20   '>
             <div className='border-b  '>
                 <div className='md:w-[350px] md:h-[200px]  w-[200px] h-[100px] rounded-t-full  '>
@@ -29,8 +36,8 @@ const Home = () => {
         </div>
         <div className='flex justify-center items-center gap-8 md:p-8 pt-10'>
             <div className='border p-4 pt-8 md:pt-20 w-[100px] md:w-[200px]'>
-                <h1 className='text-2xl md:text-6xl text-right '>Hello</h1>
-                <h1 className='text-4xl font-bold'>World!</h1>
+                <h1 data-aos="fade-right" className='text-2xl md:text-6xl text-right '>Hello</h1>
+                <h1 data-aos="fade-left" className='text-4xl font-bold'>World!</h1>
             </div>
             <div>
                 <h1 className='text-xl md:text-4xl'>I am Solomon Gachure</h1>
